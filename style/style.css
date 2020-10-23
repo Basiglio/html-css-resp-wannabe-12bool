@@ -1,26 +1,15 @@
-.row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+body {
+  text-align: center;
 }
 
-/* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-}
+
+
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
-
-#lezioni {
-  text-align: center;
 }
 
 /* BLOCCO STEPS */
@@ -74,7 +63,7 @@ img {
 
 @media screen and (max-width: 767px) {
 
-  body {
-    background-color: red;
+  .greenback {
+    background-color: lightgreen;
   }
 }
